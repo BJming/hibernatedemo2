@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+    <!--name 制定持久化类的类名-->
+    <class name="com.bjm.pojo.User" table="user">
+        <id name="id" type="java.lang.Integer" column="id">
+            <generator class="increment"/>
+        </id>
+        <!--映射User类的name属性-->
+        <property name="name" type="java.lang.String" column="name" length="20"></property>
+        <property name="password" type="java.lang.String" column="password" length="12"></property>
+        <property name="type" type="java.lang.String" column="type" length="6"></property>
+    </class>
+</hibernate-mapping>

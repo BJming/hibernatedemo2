@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="hibernate.cfg.xml/Hibernate" uuid="52b1d9b2-d34f-49ad-b494-649d08da04b9">
+      <database-info product="MySQL" version="5.7.15-1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <user-name>root</user-name>
+      <user-password>dfc8dfc0dfc7df9bdf92df9ddf9cdf9ddf99df98df9ddf93df9edf9a</user-password>
+      <resolve-scope>mysqldb:</resolve-scope>
+    </data-source>
+    <data-source name="mysqldb@localhost" uuid="262a66b8-2e6f-467e-97d3-fd0b68956eb9">
+      <database-info product="MySQL" version="5.7.15-1" jdbc-version="4.0" driver-name="MySQL Connector Java" driver-version="mysql-connector-java-5.1.35 ( Revision: 5fb9c5849535c13917c2cf9baaece6ef9693ef27 )">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="exact" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>root</user-name>
+      <resolve-scope>mysqldb:</resolve-scope>
+    </data-source>
+  </component>
+</project>
